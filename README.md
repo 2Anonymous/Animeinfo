@@ -2,11 +2,24 @@
 
 A modern Android application that fetches and displays anime information using the [Jikan API](https://jikan.moe/), built with Jetpack Compose and following Clean Architecture principles with MVVM pattern.
 
-## Download APK
+##  Download APK
 
-[Download APK from Google Drive](https://drive.google.com/file/d/1kiC7a5wgrr5-UIeeyvsBM7kteXAq8JIC/view?usp=sharing)
+[Download APK from Google Drive](https://drive.google.com/file/d/1Pqsvx7UENj6jongbA3tb8FF7gaN0xQvD/view?usp=sharing)
+
+## Repository
+
+[![GitHub](https://img.shields.io/badge/GitHub-2Anonymous%2FAnimeinfo-181717?style=for-the-badge&logo=github)](https://github.com/2Anonymous/Animeinfo)
+
+```bash
+git clone https://github.com/2Anonymous/Animeinfo.git
+```
 
 ## Features
+
+### Splash Screen
+- Animated app logo with scale effect
+- Smooth transition to home screen
+- Theme-aware background (Dark/Light)
 
 ### Anime List Page
 - Beautiful **2-column grid layout** displaying top-rated anime
@@ -72,6 +85,8 @@ app/
 │   │   ├── HomeViewModel.kt
 │   │   ├── HomeState.kt
 │   │   └── HomeEvent.kt
+│   ├── splash/
+│   │   └── SplashScreen.kt   # Animated splash screen
 │   └── navigation/           # NavGraph
 ├── ui/theme/                 # Material 3 theming
 └── util/
@@ -104,8 +119,9 @@ app/
 - **State & Event Pattern** - Unidirectional data flow in ViewModels
 - **Dependency Injection** - Loose coupling with Hilt
 
-##  Features Checklist
+## Features Checklist
 
+- [x] Animated Splash Screen with app logo
 - [x] Anime List Page with grid layout
 - [x] Anime Detail Page with comprehensive info
 - [x] In-app YouTube trailer playback
@@ -134,8 +150,8 @@ app/
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd AnimeInfo
+git clone https://github.com/2Anonymous/Animeinfo.git
+cd Animeinfo
 ```
 
 2. Open in Android Studio
