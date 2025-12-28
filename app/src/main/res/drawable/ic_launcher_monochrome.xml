@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- TV Body - Rounded Rectangle (centered with adaptive icon safe zone) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M28,38 L80,38 Q85,38 85,43 L85,72 Q85,77 80,77 L28,77 Q23,77 23,72 L23,43 Q23,38 28,38 Z" />
+
+    <!-- Inner cutout for screen -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 L78,40 Q82,40 82,44 L82,70 Q82,74 78,74 L30,74 Q26,74 26,70 L26,44 Q26,40 30,40 Z" />
+
+    <!-- Play Button Circle -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,50 m-10,0 a10,10 0 1,1 20,0 a10,10 0 1,1 -20,0" />
+
+    <!-- Play Button Triangle cutout -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,45 L51,55 L59,50 Z" />
+
+    <!-- ANIME Text -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M31,63 L33,63 L35,67 L37,63 L39,63 L39,71 L37,71 L37,66 L35,71 L33,66 L33,71 L31,71 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M41,63 L43,63 L46,67 L46,63 L48,63 L48,71 L46,71 L43,67 L43,71 L41,71 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,63 L52,63 L52,71 L50,71 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,63 L58,63 L60,65 L60,69 L58,71 L54,71 Z M56,65 L56,69 L57,69 L58,68 L58,66 L57,65 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M62,63 L68,63 L68,65 L64,65 L64,66 L67,66 L67,68 L64,68 L64,69 L68,69 L68,71 L62,71 Z" />
+
+    <!-- Antenna Left -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M44,38 L38,28" />
+
+    <!-- Antenna Right -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M64,38 L70,28" />
+
+</vector>
+

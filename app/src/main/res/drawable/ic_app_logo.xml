@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- TV Body - Rounded Rectangle -->
+    <path
+        android:fillColor="#F95757"
+        android:pathData="M20,35 L140,35 Q150,35 150,45 L150,115 Q150,125 140,125 L20,125 Q10,125 10,115 L10,45 Q10,35 20,35 Z" />
+
+    <!-- Inner Screen Area -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,42 L135,42 Q140,42 140,47 L140,108 Q140,113 135,113 L25,113 Q20,113 20,108 L20,47 Q20,42 25,42 Z" />
+
+    <!-- Play Button Circle -->
+    <path
+        android:fillColor="#F95757"
+        android:pathData="M80,62 m-18,0 a18,18 0 1,1 36,0 a18,18 0 1,1 -36,0" />
+
+    <!-- Play Button Triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,54 L75,70 L88,62 Z" />
+
+    <!-- ANIME Text -->
+    <path
+        android:fillColor="#F95757"
+        android:pathData="M35,94 L39,94 L42,100 L45,94 L49,94 L49,106 L46,106 L46,98 L42,106 L38,98 L38,106 L35,106 Z" />
+
+    <path
+        android:fillColor="#F95757"
+        android:pathData="M52,94 L56,94 L60,100 L60,94 L63,94 L63,106 L59,106 L55,100 L55,106 L52,106 Z" />
+
+    <path
+        android:fillColor="#F95757"
+        android:pathData="M66,94 L69,94 L69,106 L66,106 Z" />
+
+    <path
+        android:fillColor="#F95757"
+        android:pathData="M72,94 L79,94 L79,96 L75,96 L75,99 L78,99 L78,101 L75,101 L75,104 L79,104 L79,106 L72,106 Z" />
+
+    <!-- Antenna Left -->
+    <path
+        android:strokeColor="#F95757"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M65,35 L55,15" />
+
+    <!-- Antenna Right -->
+    <path
+        android:strokeColor="#F95757"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M95,35 L105,15" />
+
+</vector>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anime Info</string>
+    <string name="home_title">Top Anime</string>
+    <string name="detail_title">Anime Details</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="retry">Retry</string>
+    <string name="offline_mode">You\'re offline. Showing cached data.</string>
+    <string name="episodes">Episodes</string>
+    <string name="rating">Rating</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="genres">Genres</string>
+    <string name="main_cast">Main Cast</string>
+    <string name="studios">Studios</string>
+    <string name="aired">Aired</string>
+    <string name="splash_tagline">Discover Your Next Anime</string>
+</resources>
